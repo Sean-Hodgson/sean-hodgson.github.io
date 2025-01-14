@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['sean-hodgson/gitprofile', 'sean-hodgson/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Nick2k4L/PetFriends', 'Sean-Hodgson/OpcodeCloud'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -135,7 +135,7 @@ const CONFIG = {
       authors: 'Sean Hodgson, Emily West, Tashi Stirewalt, and Assefaw Gebremedhin',
       link: 'https://example.com',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'As cyber threats become more sophisticated and our dependence on software systems increases, it is crucial to implement robust security measures. One significant aspect of software security is analyzing binary code files, often targeted by cyberattacks. Although various techniques for static analysis of binary code files are available, considerable challenges remain. These challenges include but are not limited to, overcoming code obfuscation techniques, handling dynamically generated or self-modifying code, scaling to large codebases, heavy reliance on domain expertise, and high rates of false positives and negatives in practice. In this study, we propose an tournament selection style dynamic programming LCS algorithm for learning opcode sequence signatures of similarity between different binary files known to be similar. Using similarity measures of Cosine, Jaccard, and Damerau-Levenshtein, we explore the threshold prediction approach. In addition, we explore a vectorization process using a Bag-of-Words (BoW), TF-IDF, and statistical opcode combined feature embedding to train a Random Forest ML model to classify binary files into a multiple-class environment. Our experimental results demonstrate that the approach shows great potential and lays a solid foundation for efficient prediction tasks for detecting similarity between binary files resiliently to obfuscation',
     },
     {
       title: 'Publication Title',
